@@ -1,4 +1,4 @@
-# Prohibit Host Virtualizability
+# Preserve Host Virtualizability
 Prohibit hosts from adding new non-removable extensions, or accidentally breaking virtualizability by other means.
 
 ## Background: Language Virtualizability
