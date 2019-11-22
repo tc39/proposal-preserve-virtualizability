@@ -1,4 +1,7 @@
 # Preserve Host Virtualizability
+
+Champions: Mark S. Miller, ...
+
 Prohibit hosts from adding new non-deletable extensions, or accidentally breaking virtualizability by other means.
 
 ## Background: Language Virtualizability
