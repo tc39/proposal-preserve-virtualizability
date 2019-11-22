@@ -13,7 +13,7 @@ Turing universality guarantees that any universal machine can perfectly emulate 
 
 ## Lessons from TC39 History
 
-In current actual EcmaScript/host deployments, there are few violations virtualizability in practice, all are accidental, and none are fatal. However, the EcmaScript spec currently allows hosts to irreparably damage virtualizability in ways that would serve no useful purpose. Our history shows that we must tighten the spec, to avoid losing virtualizability simply due to unfortunate accidents.
+In current actual EcmaScript/host deployments, there are few violations of virtualizability in practice, all are accidental, and none are fatal. However, the EcmaScript spec currently allows hosts to irreparably damage virtualizability in ways that would serve no useful purpose. Our history shows that we must tighten the spec, to avoid losing virtualizability simply due to unfortunate accidents.
 
 Before EcmaScript 5, DOM objects were very magical. They had all kinds of bizarre behavior which objects coded in EcmaScript could not emulate. For example, assigning to a property of a DOM object could trigger behavior. To close this gap, EcmaScript 5 standardized *accessor properties*, i.e., properties with getters and setters. DOM objects could have non-assignable or non-deleteable properties, so EcmaScript 5 introduced [explicit property descriptors](https://ai.google/research/pubs/pub37741) with control over writability and configurability. However, while tc39 was closing this gap, w3c/whatwg was simultaneously widening it---introducing more host object behaviors, like [local storage](https://html.spec.whatwg.org/multipage/webstorage.html#dom-localstorage), that could not be emulated even by EcmaScript 5 objects.
 
