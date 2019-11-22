@@ -1,6 +1,6 @@
 # Preserve Host Virtualizability
 
-Champions: Mark S. Miller, ...
+Champions: Mark S. Miller, JF Paradis
 
 Prohibit hosts from adding new non-deletable extensions, or accidentally breaking virtualizability by other means.
 
