@@ -41,6 +41,8 @@ The result is that the global object that original represented an iframe is disc
 
 This combination---of diconnecting the frame global from its context, and of bleaching everything reachable from that global---does not give us perfect virtualizability. Due to the detectable presence of those six remaining inert host objects, at those locked in property names, post-startup code can still sense that it was actually started on a browser, despite best efforts by startup code to emulate another host. However, that is only an abstraction leakage of information about the platform. It does not compromise in any way the ability to virtualize the *abilities* and *inabiities* of a different host. Because we likely cannot get agreement to make these properties deletable, and because we now understand this remaining violation to be non-fatal, this proposal grandfathers it alone as a special case. We explicitly prohibit any violations outside this grandfathered-in special case.
 
+## Undetectable Extensions
+
 ## Proliferating Host Hooks
 
 ## Extra Behavior of Standard Properties
