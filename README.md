@@ -1,6 +1,10 @@
 # Preserve Host Virtualizability
 
-Champions: Mark S. Miller, JF Paradis
+Champions
+   * Mark S. Miller @erights, Agoric
+   * JF Paradis @jfparadis, Agoric
+   * Caridy Patiño @caridy, Salesforce
+   * Dan Finley @danfinlay, MetaMask
 
 Prohibit hosts from adding new non-deletable extensions, or accidentally breaking virtualizability by other means.
 
