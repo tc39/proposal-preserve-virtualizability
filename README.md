@@ -1,12 +1,12 @@
 # Preserve Host Virtualizability
 
-Champions
+*Prohibit hosts from adding new non-deletable extensions, or accidentally breaking virtualizability by other means.*
+
    * Mark S. Miller @erights, Agoric
-   * JF Paradis @jfparadis, Agoric
+   * J.F. Paradis @jfparadis, Agoric
    * Caridy Patiño @caridy, Salesforce
    * Dan Finley @danfinlay, MetaMask
 
-Prohibit hosts from adding new non-deletable extensions, or accidentally breaking virtualizability by other means.
 
 ## Background: Language Virtualizability
 
