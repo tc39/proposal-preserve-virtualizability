@@ -6,6 +6,7 @@
    * J.F. Paradis @jfparadis, Agoric
    * Caridy Patiño @caridy, Salesforce
    * Dan Finley @danfinlay, MetaMask
+   * Alan Schmitt @brabalan, Inria
 
 
 ## Background: Language Virtualizability
